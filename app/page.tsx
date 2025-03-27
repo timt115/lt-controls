@@ -1,102 +1,89 @@
+import Head from "next/head";
 import Image from "next/image";
+import Header from "./components/header";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+      {/* Main Content */}
+      <main className="px-6 sm:px-12 py-12">
+        {/* Company Summary Section */}
+        <section
+          id="company-summary"
+          className="flex justify-center mb-12"
+        >
+          <div className="p-0 border rounded-lg shadow-lg bg-white dark:bg-[var(--background)] max-w-4xl flex flex-col sm:flex-row items-stretch gap-0">
+            {/* Image Section */}
+            <div className="flex-shrink-0 w-full sm:w-1/2">
+              <Image
+                src="/summary.png" // Replace with your image path
+                alt="Company Overview"
+                width={500}
+                height={500}
+                className="rounded-l-lg object-cover w-full h-full"
+              />
+            </div>
+
+            {/* Text Section */}
+            <div className="p-6 flex flex-col justify-center">
+              <h3 className="text-2xl font-extrabold text-[var(--foreground)] mb-4 text-center sm:text-left">
+                Welcome to LT-Controls
+              </h3>
+              <h4 className="text-1xl font-bold text-[var(--foreground)] mb-4 text-center sm:text-left">
+                Your Automation Partner
+              </h4>
+              <p className="text-lg text-[var(--muted)] text-center sm:text-left">
+                At LT-Controls, we specialize in delivering cutting-edge software solutions tailored to meet the unique needs of our clients. With a focus on innovation, quality, and customer satisfaction, we aim to empower businesses with technology that drives success.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* About Section */}
+        <section
+          id="services"
+          className="flex flex-col gap-12 items-center sm:items-start text-center sm:text-left"
+        >
+          <h2 className="text-4xl font-extrabold text-[var(--foreground)]">
+            About LT-Controls
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <div className="p-6 border rounded-lg shadow-lg bg-white dark:bg-[var(--background)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+              <h3 className="text-xl font-bold mb-2 text-[var(--foreground)]">
+                Our Team
+              </h3>
+              <p className="text-[var(--muted)]">
+                We have a team of experienced software developers and designers who are passionate about creating user-friendly software solutions.
+              </p>
+            </div>
+            {/* Card 2 */}
+            <div className="p-6 border rounded-lg shadow-lg bg-white dark:bg-[var(--background)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+              <h3 className="text-xl font-bold mb-2 text-[var(--foreground)]">
+                Our Services
+              </h3>
+              <p className="text-[var(--muted)]">
+                We offer a range of software development services including web development, mobile app development, and custom software development.
+              </p>
+            </div>
+            {/* Card 3 */}
+            <div className="p-6 border rounded-lg shadow-lg bg-white dark:bg-[var(--background)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+              <h3 className="text-xl font-bold mb-2 text-[var(--foreground)]">
+                Our Process
+              </h3>
+              <p className="text-[var(--muted)]">
+                We follow an agile software development process that emphasizes collaboration, flexibility, and rapid prototyping to ensure that our clients are satisfied with the final product.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      {/* Footer */}
+      <footer className="w-full bg-[var(--background)] py-6 text-center text-[var(--muted)]">
+        <p className="text-sm">&copy; 2025 LT-Controls. All rights reserved.</p>
       </footer>
     </div>
   );
