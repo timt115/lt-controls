@@ -101,14 +101,14 @@ export default function Contact() {
                     </p>
                     <div className="mt-4 space-y-2">
                         <p className="text-lg">
-                            <strong>Startek Automation Controls Pty Ltd</strong>
+                            <strong>LT Automation Controls Pty Ltd</strong>
                         </p>
                         <p className="text-lg">1990 Logan Road, Upper Mount Gravatt Queensland 4122, Australia</p>
                         <p className="text-lg">
                             <strong>Phone:</strong> +61 428 600 686
                         </p>
                         <p className="text-lg">
-                            <strong>Email:</strong> sales@startekautomation.com
+                            <strong>Email:</strong> sales@LTautomation.com
                         </p>
                     </div>
                     <div className="mt-6">
@@ -124,7 +124,7 @@ export default function Contact() {
             {/* Footer */}
             <footer className="w-full bg-[var(--background)] py-6 text-center text-[var(--muted)]">
                 <p className="text-sm">
-                    Copyright © 2025 Startek Automation Controls Pty Ltd - All Rights Reserved.
+                    Copyright © 2025 LT Automation Controls Pty Ltd - All Rights Reserved.
                 </p>
                 <p className="text-sm">Powered by GoDaddy</p>
             </footer>

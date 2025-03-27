@@ -7,7 +7,7 @@ export default function Management() {
                     Our Management Team
                 </h1>
                 <p className="text-lg text-[var(--muted)] mt-4">
-                    Meet the leaders driving Startek's success and innovation.
+                    Meet the leaders driving LT's success and innovation.
                 </p>
             </header>
 
@@ -31,10 +31,10 @@ export default function Management() {
                                 </p>
                             </div>
                             <p className="text-[var(--foreground)]">
-                                Young is the founder of Startek, graduated from UQ with a Bachelor of Engineering in Electrical and Electronics Engineering and holds the Master of Project Management qualifications.
+                                Young is the founder of LT, graduated from UQ with a Bachelor of Engineering in Electrical and Electronics Engineering and holds the Master of Project Management qualifications.
                             </p>
                             <p className="text-[var(--foreground)]">
-                                He is a principal engineer with 25 years of experience in control automation and electrical design, with a key focus on project delivery and project management. He has worked in multiple industries over the years and has built promising relationships with clients who look forward to working with Startek to ensure the success of their plants. His vision is to build Startek into a leading automation service provider for Australia.
+                                He is a principal engineer with 25 years of experience in control automation and electrical design, with a key focus on project delivery and project management. He has worked in multiple industries over the years and has built promising relationships with clients who look forward to working with LT to ensure the success of their plants. His vision is to build LT into a leading automation service provider for Australia.
                             </p>
                         </div>
                     </div>
