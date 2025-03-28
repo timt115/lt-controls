@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata & { verification: string } = {
   title: "LT-Controls",
-  description: "LT-Controls",
+  description: "LT-Controls, Your Automation Partner, we specialize in delivering cutting edge-software solutions tailored to meet the unique needs of our client. With a focus on innovation, quality, and customer satisfaction.",
   verification: "--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0",
 };
 
