@@ -13,12 +13,13 @@
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1a202c; /* Dark gray background */
-    --foreground: #e2e8f0; /* Light gray text */
+    --background: #09182c; /* Dark gray background */
+    --foreground: #282954; /* Light gray text */
     --primary: #3b82f6; /* Lighter blue */
     --secondary: #34d399; /* Lighter green */
     --accent: #fbbf24; /* Lighter yellow */
     --muted: #a0aec0; /* Muted gray */
+    --text: rgb(225, 225, 225); /* White text */
   } 
 }
 

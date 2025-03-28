@@ -1,11 +1,10 @@
-import Header from "../components/header";
 
 export default function AboutUs() {
   return (
-    <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">
+    <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
       {/* Header */}
 
-      {/* Main Content */}
+      {/* Main Content */}  
       <main className="px-6 sm:px-12 py-12">
         {/* Welcome Section */}
         <section className="mb-12">
@@ -99,10 +98,6 @@ export default function AboutUs() {
       </main>
 
       {/* Footer */}
-      <footer className="w-full bg-[var(--background)] py-6 text-center text-[var(--muted)]">
-        <p className="text-sm">&copy; 2023 LT Automation Controls Pty Ltd - All Rights Reserved.</p>
-        <p className="text-sm">Powered by GoDaddy</p>
-      </footer>
     </div>
   );
 }
