@@ -18,8 +18,8 @@ export default function Home() {
             {/* Image Section */}
             <div className="flex-shrink-0 w-full sm:w-1/2">
               <Image
-                src="/summary.png" // Replace with your image path
-                alt="Company Overview"
+                src="/summary.png" 
+                alt="Tech Image"
                 width={500}
                 height={500}
                 className="rounded-l-lg object-cover w-full h-full"
@@ -28,9 +28,9 @@ export default function Home() {
 
             {/* Text Section */}
             <div className="p-6 flex flex-col justify-center">
-              <h3 className="text-2xl font-extrabold text-[var(--text)] mb-4 text-center sm:text-left">
-                Welcome to LT-Controls
-              </h3>
+              <h1 className="text-2xl font-extrabold text-[var(--text)] mb-4 text-center sm:text-left">
+                Welcome to LT-CONTROLS
+              </h1>
               <h4 className="text-1xl font-bold text-[var(--text)] mb-4 text-center sm:text-left">
                 Your Automation Partner
               </h4>

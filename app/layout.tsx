@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata & { verification: string } = {
   title: "LT-Controls",
   description: "LT-Controls, Your Automation Partner, we specialize in delivering cutting edge-software solutions tailored to meet the unique needs of our client. With a focus on innovation, quality, and customer satisfaction.",
+  icons: {
+    icon: "/Logo Final CMYK.svg",
+    shortcut: "/Logo Final CMYK.svg",
+    apple: "/Logo Final CMYK.svg",
+  },
   verification: "--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0",
 };
 

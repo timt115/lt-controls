@@ -5,7 +5,7 @@ export default function Contact() {
         <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
             {/* Header */}
             <header className="py-8 text-center">
-                <h1 className="text-4xl font-extrabold text-[var(--primary)]">
+                <h1 className="text-4xl font-extrabold text-[var(--text)]">
                     Contact Us
                 </h1>
                 <p className="text-lg text-[var(--muted)] mt-4">
@@ -32,7 +32,7 @@ export default function Contact() {
                 {/* Contact Form Section */}
                 <section className="bg-[var(--foreground)]
                  shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
-                    <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">
+                    <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
                         Contact Us
                     </h2>
                     <form className="space-y-4">
@@ -96,7 +96,7 @@ export default function Contact() {
 
                 {/* Business Details Section */}
                 <section className="bg-[var(--foreground)] shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
-                    <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">
+                    <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
                         Better yet, see us in person!
                     </h2>
                     <p className="text-lg text-[var(--t ext)]">
@@ -115,7 +115,7 @@ export default function Contact() {
                         </p>
                     </div>
                     <div className="mt-6">
-                        <h3 className="text-2xl font-bold text-[var(--primary)]">Hours</h3>
+                        <h3 className="text-2xl font-bold text-[var(--text)]">Hours</h3>
                         <ul className="mt-2 text-lg text-[var(--text)]">
                             <li>Mon : 8:30 am – 4:30 pm</li>
                             <li>Tue : 8:30 am – 4:30 pm</li>

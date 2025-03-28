@@ -6,7 +6,7 @@ export default function Header() {
     <header className=" sticky z-50 w-full flex-direction:column justify-content:center p-4 bg-[var(--foreground)] shadow-lg">
       {/* Logo Section */}
       <div className="flex items-center gap-4 justify-center">
-        <Image src="/Logo with Name Final CMYK.png" alt="LT-Controls Logo" width={200} height={0} />
+        <Image src="/LTControlsLogoCol.png" alt="LT-Controls Logo" width={200} height={0} />
       </div>
 
       {/* Navigation Section */}

@@ -18,8 +18,8 @@ export default function Management() {
                     <div className="flex flex-col gap-4 p-6 bg-[var(--foreground)] shadow-md rounded-lg sm:flex-row sm:items-center sm:gap-6 hover:shadow-lg transition-shadow">
                         <img
                             className="mx-auto block h-24 w-40 sm:mx-0 sm:shrink-0"
-                            src="/Logo with Name Final CMYK.png" // Replace with the actual image path
-                            alt="Young Tran"
+                            src="/LTControlsLogoCol.png"
+                            alt="Young Tran Profile Image"
                         />
                         <div className="space-y-2 text-center sm:text-left">
                             <div className="space-y-0.5">
