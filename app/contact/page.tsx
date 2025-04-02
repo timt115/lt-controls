@@ -1,5 +1,4 @@
-import Footer from "../components/footer";
-
+import ContactForm from '../components/contactform';
 export default function Contact() {
     return (
         <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
@@ -92,6 +91,10 @@ export default function Contact() {
                     <p className="mt-4 text-sm text-[var(--muted)]">
                         This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
                     </p>
+                </section>
+
+                <section>
+                    <ContactForm />
                 </section>
 
                 {/* Business Details Section */}
