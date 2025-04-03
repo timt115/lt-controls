@@ -15,7 +15,7 @@ export default function Header() {
           <li>
             <Link
               href="/"
-              className="text-[var(--text)] hover:text-[var(--primary)] transition-colors font-medium text-sm sm:text-base"
+              className="text-[var(--primary)] hover:text-[var(--text)] transition-colors font-medium text-sm sm:text-base"
             >
               Home
             </Link>
@@ -23,7 +23,7 @@ export default function Header() {
           <li>
             <Link
               href="/about"
-              className="text-[var(--text)] hover:text-[var(--primary)] transition-colors font-medium text-sm sm:text-base"
+              className="text-[var(--primary)] hover:text-[var(--text)] transition-colors font-medium text-sm sm:text-base"
             >
               About Us
             </Link>
@@ -31,7 +31,7 @@ export default function Header() {
           <li>
             <Link
               href="/projects"
-              className="text-[var(--text)] hover:text-[var(--primary)] transition-colors font-medium text-sm sm:text-base"
+              className="text-[var(--primary)] hover:text-[var(--text)] transition-colors font-medium text-sm sm:text-base"
             >
               Our Projects
             </Link>
@@ -39,7 +39,7 @@ export default function Header() {
           <li>
             <Link
               href="/management"
-              className="text-[var(--text)] hover:text-[var(--primary)] transition-colors font-medium text-sm sm:text-base"
+              className="text-[var(--primary)] hover:text-[var(--text)] transition-colors font-medium text-sm sm:text-base"
             >
               Management Team
             </Link>
@@ -47,7 +47,7 @@ export default function Header() {
           <li>
             <Link
               href="/contact"
-              className="text-[var(--text)] hover:text-[var(--primary)] transition-colors font-medium text-sm sm:text-base"
+              className="text-[var(--primary)] hover:text-[var(--text)] transition-colors font-medium text-sm sm:text-base"
             >
               Contact Us
             </Link>

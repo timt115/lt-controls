@@ -29,7 +29,10 @@ export default function Home() {
             {/* Text Section */}
             <div className="p-8 flex flex-col justify-center">
               <h1 className="text-3xl font-extrabold text-gray-900 mb-6 text-center sm:text-left">
-                Welcome to LT-CONTROLS
+                Welcome to 
+              </h1>
+              <h1 className="text-3xl font-extrabold text-gray-900 mb-6 text-center sm:text-left">
+                LT-CONTROLS
               </h1>
               <h4 className="text-2xl font-bold text-gray-700 mb-6 text-center sm:text-left">
                 Your Automation Partner
@@ -68,7 +71,7 @@ export default function Home() {
           className="flex flex-col gap-5 items-center text-center px-6 sm:px-12 mb-12"
         >
           <h2 className="text-4xl font-extrabold text-[var(--text)] mb-6">
-            About LT-Controls
+            About LT-CONTROLS
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
             {/* Card 1 */}

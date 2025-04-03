@@ -22,6 +22,7 @@ export const metadata: Metadata & { verification: string } = {
     icon: "/Logo Final CMYK.svg",
     shortcut: "/Logo Final CMYK.svg",
     apple: "/Logo Final CMYK.svg",
+    
   },
   verification: "--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0",
 };
