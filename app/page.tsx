@@ -52,7 +52,6 @@ export default function Home() {
                 </li>
               </ul>
               {/* Call to Action */}
-              {/* Call to Action */}
               <Link
                 href="/about"
                 className="mt-10 bg-blue-600 text-white px-4 py-2 hover:bg-blue-700 transition-colors text-center self-center"
@@ -66,14 +65,14 @@ export default function Home() {
         {/* About Section */}
         <section
           id="services"
-          className="flex flex-col gap-5 items-center sm:items-start text-center sm:text-left ml-20 mr-20 mb-12"
+          className="flex flex-col gap-5 items-center text-center px-6 sm:px-12 mb-12"
         >
-          <h2 className="text-4xl font-extrabold text-[var(--text)] ">
+          <h2 className="text-4xl font-extrabold text-[var(--text)] mb-6">
             About LT-Controls
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
             {/* Card 1 */}
-            <div className="p-6 border rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+            <div className="p-6 rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2 text-[var(--text)]">
                 Our Team
               </h3>
@@ -82,7 +81,7 @@ export default function Home() {
               </p>
             </div>
             {/* Card 2 */}
-            <div className="p-6 border rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+            <div className="p-6 rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2 text-[var(--text)]">
                 Our Services
               </h3>
@@ -91,7 +90,7 @@ export default function Home() {
               </p>
             </div>
             {/* Card 3 */}
-            <div className="p-6 border rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+            <div className="p-6 rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] hover:shadow-2xl hover:scale-105 transition-transform duration-300">
               <h3 className="text-xl font-bold mb-2 text-[var(--text)]">
                 Our Process
               </h3>
@@ -123,7 +122,6 @@ export default function Home() {
 
       </main>
 
-      {/* Footer */}
     </div>
   );
 }

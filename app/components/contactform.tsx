@@ -34,6 +34,7 @@ export default function ContactForm() {
     });
     if (response?.messageId) {
       toast.success('Application Submitted Successfully.');
+      form.reset();
     } else {
       toast.error('Failed To send application.');
     }
