@@ -1,4 +1,5 @@
-import ContactForm from '../components/contactform';
+import ContactForm from '../ContactForm';
+
 export default function Contact() {
     return (
         <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
