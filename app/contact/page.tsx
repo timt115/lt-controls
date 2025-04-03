@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import ContactForm from "../components/contactform";
 
 export default function Contact() {
     return (
@@ -31,69 +31,6 @@ export default function Contact() {
                     </section>
 
                 {/* Contact Form Section */}
-                <section className="bg-[var(--foreground)]
-                 shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
-                    <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
-                        Contact Us
-                    </h2>
-                    <form className="space-y-4">
-                        <div>
-                            <label htmlFor="name" className="block text-lg font-semibold">
-                                Name*
-                            </label>
-                            <input
-                                type="text"
-                                id="name"
-                                className="w-full border border-[var(--muted)] rounded-lg p-2"
-                                placeholder="Your Name"
-                                required
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="email" className="block text-lg font-semibold">
-                                Email*
-                            </label>
-                            <input
-                                type="email"
-                                id="email"
-                                className="w-full border border-[var(--muted)] rounded-lg p-2"
-                                placeholder="Your Email"
-                                required
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="message" className="block text-lg font-semibold">
-                                Message*
-                            </label>
-                            <textarea
-                                id="message"
-                                className="w-full border border-[var(--muted)] rounded-lg p-2"
-                                placeholder="Your Message"
-                                rows={4}
-                                required
-                            ></textarea>
-                        </div>
-                        <div>
-                            <label htmlFor="file" className="block text-lg font-semibold">
-                                Attach Files
-                            </label>
-                            <input
-                                type="file"
-                                id="file"
-                                className="w-full border border-[var(--muted)] rounded-lg p-2"
-                            />
-                        </div>
-                        <button
-                            type="submit"
-                            className="bg-[var(--primary)] text-white font-bold py-2 px-4 rounded-lg hover:bg-[var(--secondary)] transition-colors"
-                        >
-                            Submit
-                        </button>
-                    </form>
-                    <p className="mt-4 text-sm text-[var(--muted)]">
-                        This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
-                    </p>
-                </section>
 
                 <section>
                     <ContactForm />
@@ -132,6 +69,7 @@ export default function Contact() {
                         </ul>
                     </div>
                 </section>
+            </div>
             </main>
         </div>
     );
