@@ -54,7 +54,7 @@ export default function Home() {
               {/* Call to Action */}
               <Link
                 href="/about"
-                className="mt-10 bg-blue-600 text-white px-4 py-2 hover:bg-blue-700 transition-colors text-center self-center"
+                className="mt-10 bg-blue-600 text-white px-4 py-2 text-center self-center"
               >
                 Learn More
               </Link>
@@ -114,7 +114,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-[var(--primary)] hover:text-[var(--text)]transition-colors "
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg  "
           >
             Contact Us
           </Link>
