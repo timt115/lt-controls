@@ -1,4 +1,4 @@
-import ContactForm from '../ContactForm';
+import Footer from "../components/footer";
 
 export default function Contact() {
     return (
