@@ -5,38 +5,60 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">
+    <div className="min-h-screen bg-gray-100 text-gray-900 font-sans">
 
       {/* Main Content */}
       <main className="px-6 sm:px-12 py-12">
         {/* Company Summary Section */}
         <section
           id="company-summary"
-          className="flex justify-center mb-12"
+          className="flex justify-center mb-16"
         >
-          <div className="p-0 border rounded-lg shadow-lg bg-white dark:bg-[var(--foreground)] max-w-4xl flex flex-col sm:flex-row items-stretch gap-0">
+          <div className="p-0 border rounded-lg shadow-2xl max-w-5xl flex flex-col sm:flex-row items-stretch gap-0">
             {/* Image Section */}
-            <div className="flex-shrink-0 w-full sm:w-1/2">
+            <div className="flex-shrink-0 w-full sm:w-3/5">
               <Image
-                src="/summary.png" 
-                alt="Tech Image"
-                width={500}
-                height={500}
+                src="/summary.png"
+                alt="Overview of LT-Controls' automation services"
+                width={600}
+                height={600}
                 className="rounded-l-lg object-cover w-full h-full"
               />
             </div>
 
             {/* Text Section */}
-            <div className="p-6 flex flex-col justify-center">
-              <h1 className="text-2xl font-extrabold text-[var(--text)] mb-4 text-center sm:text-left">
+            <div className="p-8 flex flex-col justify-center">
+              <h1 className="text-3xl font-extrabold text-gray-900 mb-6 text-center sm:text-left">
                 Welcome to LT-CONTROLS
               </h1>
-              <h4 className="text-1xl font-bold text-[var(--text)] mb-4 text-center sm:text-left">
+              <h4 className="text-2xl font-bold text-gray-700 mb-6 text-center sm:text-left">
                 Your Automation Partner
               </h4>
-              <p className="text-lg text-[var(--text)] text-center sm:text-left">
-                At LT-Controls, we specialize in delivering cutting-edge software solutions tailored to meet the unique needs of our clients. With a focus on innovation, quality, and customer satisfaction, we aim to empower businesses with technology that drives success.
-              </p>
+              <ul className="list-disc pl-6 space-y-4 text-lg">
+                <li>
+                  <p className="text-gray-600 font-semibold">
+                    Offers professional service from PLC programming, HMI, and SCADA design.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-gray-600 font-semibold">
+                    Over 20 years of experience.
+                  </p>
+                </li>
+                <li>
+                  <p className="text-gray-600 font-semibold">
+                    Emergency breakdown support.
+                  </p>
+                </li>
+              </ul>
+              {/* Call to Action */}
+              {/* Call to Action */}
+              <Link
+                href="/about"
+                className="mt-10 bg-blue-600 text-white px-4 py-2 hover:bg-blue-700 transition-colors text-center self-center"
+              >
+                Learn More
+              </Link>
             </div>
           </div>
         </section>
@@ -93,12 +115,12 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="bg-[var(--foreground)] text-[var(--text)] px-4 py-2 rounded-lg hover:bg-[var(--primary)] hover:text-[var(--text)]transition-colors "
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-[var(--primary)] hover:text-[var(--text)]transition-colors "
           >
             Contact Us
           </Link>
         </section>
-        
+
       </main>
 
       {/* Footer */}

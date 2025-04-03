@@ -1,5 +1,4 @@
-import Footer from "../components/footer";
-
+import ContactForm from '../components/contactform';
 export default function Contact() {
     return (
         <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
@@ -15,19 +14,20 @@ export default function Contact() {
 
             {/* Main Content */}
             <main className="px-6 sm:px-12 py-12 space-y-12">
-                {/* Urgent Support Section */}
-                <section className="bg-[var(--foreground)] shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
-                    <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">
-                        FOR URGENT BREAKDOWN SUPPORT
-                    </h2>
-                    <p className="text-lg text-[var(--text)]">
-                        <strong>PRODUCTION STOPPED?</strong> We have a team of well-experienced engineers and offer 24/7 technical support. Call us on our 24 hours support hotline to experience first-class automation support services.
-                    </p>
-                    <p className="mt-4 text-2xl font-bold text-[var(--secondary)]">
-                        24 HOURS SUPPORT HOTLINE
-                    </p>
-                    <p className="text-lg text-[var(--text)]">+61 428 600 686</p>
-                </section>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {/* Urgent Support Section */}
+                    <section className="bg-[var(--foreground)] shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
+                        <h2 className="text-3xl font-bold text-[var(--primary)] mb-4">
+                            FOR URGENT BREAKDOWN SUPPORT
+                        </h2>
+                        <p className="text-lg text-[var(--text)]">
+                            <strong>PRODUCTION STOPPED?</strong> We have a team of well-experienced engineers and offer 24/7 technical support. Call us on our 24 hours support hotline to experience first-class automation support services.
+                        </p>
+                        <p className="mt-4 text-2xl font-bold text-[var(--secondary)]">
+                            24 HOURS SUPPORT HOTLINE
+                        </p>
+                        <p className="text-lg text-[var(--text)]">+61 428 600 686</p>
+                    </section>
 
                 {/* Contact Form Section */}
                 <section className="bg-[var(--foreground)]
@@ -94,12 +94,16 @@ export default function Contact() {
                     </p>
                 </section>
 
+                <section>
+                    <ContactForm />
+                </section>
+
                 {/* Business Details Section */}
                 <section className="bg-[var(--foreground)] shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
                     <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
                         Better yet, see us in person!
                     </h2>
-                    <p className="text-lg text-[var(--t ext)]">
+                    <p className="text-lg text-[var(--text)]">
                         We love our customers, so feel free to visit during normal business hours.
                     </p>
                     <div className="mt-4 space-y-2">
@@ -128,8 +132,6 @@ export default function Contact() {
                     </div>
                 </section>
             </main>
-
-            {/* Footer */}
         </div>
     );
 }

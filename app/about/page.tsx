@@ -1,14 +1,12 @@
-
 export default function AboutUs() {
   return (
-    <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
-      {/* Header */}
+    <div className="min-h-screen bg-[var(--background)] text-gray-900 font-sans">
 
-      {/* Main Content */}  
+      {/* Main Content */}
       <main className="px-6 sm:px-12 py-12">
         {/* Welcome Section */}
-        <section className="mb-12">
-          <h1 className="text-4xl font-extrabold text-center mb-6">
+        <section className="mb-12 text-center">
+          <h1 className="text-4xl font-extrabold mb-6">
             Welcome to LT Controls Pty Ltd
           </h1>
         </section>
@@ -65,39 +63,102 @@ export default function AboutUs() {
           </ul>
         </section>
 
+
         {/* Services Section */}
         <section id="services" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-          <p className="text-lg mb-4">
-            LT has been providing automation services to multiple industries since 2018. LT has been approached by many leading companies in their industries for automation solutions with a range of different systems.
+          <h2 className="text-3xl font-bold mb-6 text-center">Our Services</h2>
+          <p className="text-lg mb-6 text-center">
+            LT has been providing automation services to multiple industries since 2018. We deliver high-quality electrical, instrumentation, control systems, and SCADA solutions for both greenfield and brownfield projects.
           </p>
-          <p className="text-lg mb-4">
-            LT provides high-quality electrical, instrumentation, control systems, and SCADA solutions with greenfield and brownfield projects.
-          </p>
-          <p className="text-lg mb-4">
-            With experience in many different SCADA systems and PLC systems as well as many different industries, LT stands out as being a reliable and promising vendor. Some of our key services can be found below:
-          </p>
-          <ul className="list-disc list-inside space-y-4">
-            <li>
-              <strong>PLC Systems:</strong> Rockwell, Schneider, Siemens, Mitsubishi, and more.
-            </li>
-            <li>
-              <strong>SCADA Systems:</strong> CitectSCADA, ClearSCADA, Ignition, Wonderware, and more.
-            </li>
-            <li>
-              <strong>HMI:</strong> RSView ME-Panel View, Adroit, Beijer, and more.
-            </li>
-            <li>
-              <strong>DCS Systems:</strong> Yokogawa, Honeywell, Foxboro.
-            </li>
-            <li>
-              <strong>Others:</strong> VSD drives, SQL and OSIsoft PI Database, Modbus/ProfiBus/Fieldbus, and more.
-            </li>
-          </ul>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">PLC Systems</h3>
+              <img
+                src="/plc-systems.jpg"
+                alt="PLC Systems"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>Rockwell, Schneider, GuardLogix, Pilz, GE Fanuc, Mitsubishi, Modicon, Panasonic, Hitachi IFM, Beckhoff and Omron, etc.</li>
+                <li>Siemens Simatic Manager / Siemens TIA 15 - 17.</li>
+
+              </ul>
+            </div>
+            {/* Card 2 */}
+            <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">SCADA Systems</h3>
+              <img
+                src="/scada-systems.jpg"
+                alt="SCADA Systems"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>CitectSCADA 7.1 / 7.2 / 2018 / PlantSCADA 2022.</li>
+                <li>ClearSCADA, RSView FT / Plant PAX, Experion.</li>
+                <li>Win CC, Adroit, Ignition and Wonderware.</li>
+
+              </ul>
+            </div>
+            {/* Card 3 */}
+            <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">HMI</h3>
+              <img
+                src="/hmi.jpg"
+                alt="HMI"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>RSView ME-Panel View, Adroit, Beijer, Cmore, Exor and Weintek , Red Lion, etc.</li>
+              </ul>
+            </div>
+            {/* Card 4 */}
+            <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] hover:shadow-2xl text-center">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">DCS Systems</h3>
+              <img
+                src="/dcs-systems.jpg"
+                alt="DCS Systems"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>Yokogawa , Honeywell , Foxboro.</li>
+              </ul>
+            </div>
+            {/* Card 5 */}
+            <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">Other Services</h3>
+              <img
+                src="/other-services.jpg"
+                alt="Other Services"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>VSD drives (SEW Movi-kit/Movi-B/Movi-trak, PowerFlex, Omron, Danfoss).</li>
+                <li>SQL and OSIsoft PI Database.</li>
+                <li>Modbus / ProfiBus / Fieldbus / IEC 61850and other convertors and Gateways.</li>
+                <li>Onsite Testing and Commissioning.</li>
+                <li>Integration of stand-alone machinery into main plant system.</li>
+                <li>PLC and SCADA conversions (upgrades or between different brands).</li>
+              </ul>
+            </div>
+
+            {/* Card 6 */}
+            <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">Network / Safety / Electrical</h3>
+              <img
+                src="/instrumentation.jpg"
+                alt="Instrumentation"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                <li>Networking (Layer 1 / Layer 2 / Layer 3 ( Cisco, Stratix), Cyber security.</li>
+                <li>Functional Safety design and verification.</li>
+                <li>Electrical Design  / LV Panels / Control Panels  / Design Drawings.</li>
+              </ul>
+          </div>
+          </div>
         </section>
       </main>
-
-      {/* Footer */}
     </div>
   );
 }

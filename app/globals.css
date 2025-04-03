@@ -4,8 +4,8 @@
 :root {
   --background: #ffffff; /* White background */
   --foreground: #f8f8f8; /* Dark gray text */
-  --primary: #2563eb; /* Primary blue */
-  --secondary: #2563eb; /* Secondary green */
+  --primary: #123985; /* Primary blue */
+  --secondary: #123985; /* Secondary green */
   --accent: #f59e0b; /* Accent yellow */
   --muted: #6b7280; /* Muted gray */
   --text: #000000; /* Black text */
@@ -14,14 +14,14 @@
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #09182c; /* Dark gray background */
-    --foreground: #282954; /* Light gray text */
-    --primary: #3b82f6; /* Lighter blue */
-    --secondary: #34d399; /* Lighter green */
-    --accent: #fbbf24; /* Lighter yellow */
-    --muted: #a0aec0; /* Muted gray */
-    --text: rgb(225, 225, 225); /* White text */
-  } 
+  --background: #ffffff; /* White background */
+  --foreground: #f8f8f8; /* Dark gray text */
+  --primary: #123985; /* Primary blue */
+  --secondary: #123985; /* Secondary green */
+  --accent: #f59e0b; /* Accent yellow */
+  --muted: #6b7280; /* Muted gray */
+  --text: #000000; /* Black text */
+}
 }
 
 /* Global Styles */
