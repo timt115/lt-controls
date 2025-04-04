@@ -18,12 +18,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata & { verification: string } = {
   title: "LT-Controls | Your Automation Partner",
-  description: "LT-Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
+  description:
+    "LT-Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
   icons: {
-    icon: "/Logo Final CMYK.svg",
-    shortcut: "/Logo Final CMYK.svg",
-    apple: "/Logo Final CMYK.svg",
-    
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   verification: "--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0",
 };
@@ -36,10 +36,36 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta
           name="google-site-verification"
-          content={metadata.verification}
+          content="--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0"
         />
+        <title>LT-CONTROLS</title>
+        <meta
+          name="description"
+          content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
+        />
+        <meta
+          name="keywords"
+          content="LT-CONTROLS, Automation, automation solutions, PLC programming, HMI design, SCADA systems, Food and Beverage Automation"
+        />
+        <meta name="url" content="https://ltcontrols.com" />
+        <meta name="og:title" content="LT-CONTROLS" />
+        <meta
+          name="og:description"
+          content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
+        />
+        <meta name="og:image" content="/favicon.svg" />
+        <meta name="og:url" content="https://ltcontrols.com" />
+        <meta name="og:type" content="website" />
+        <meta name="og:site_name" content="LT-CONTROLS" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
 
       <body
