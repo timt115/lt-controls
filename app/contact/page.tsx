@@ -78,9 +78,14 @@ export default function Contact() {
                         <h2 className="text-3xl font-bold text-[var(--text)] mb-4">
                             Find Us Here
                         </h2>
-                        <div className="w-full h-96 items-center justify-center">
-                        <iframe width="640" height="450" style={{ border: 0 }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJQeLQQTRbkWsRhZ100eOzWIA&key=AIzaSyB6O022Uw7f3n4JF1ro44yORnHgftu-qx4">
-                        </iframe>
+                        <div className="relative w-full" style={{ paddingBottom: '56.25%', height: 0 }}>
+                            <iframe
+                                className="absolute top-0 left-0 w-full h-full rounded-lg"
+                                style={{ border: 0 }}
+                                loading="lazy"
+                                allowFullScreen
+                                src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJQeLQQTRbkWsRhZ100eOzWIA&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`}
+                                ></iframe>
                         </div>
                     </section>
                 </div>

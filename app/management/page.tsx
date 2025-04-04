@@ -38,10 +38,35 @@ export default function Management() {
                             </p>
                         </div>
                     </div>
+
+                    {/* Clifford Leung */}
+                    <div className="flex flex-col gap-4 p-6 bg-[var(--foreground)] shadow-md rounded-lg sm:flex-row sm:items-center sm:gap-6 hover:shadow-lg transition-shadow">
+                        <img
+                            className="mx-auto block h-24 w-40 sm:mx-0 sm:shrink-0"
+                            src="/LTControlsLogoCol.png"
+                            alt="Young Tran Profile Image"
+                        />
+                        <div className="space-y-2 text-center sm:text-left">
+                            <div className="space-y-0.5">
+                                <p className="text-2xl font-bold text-[var(--primary)]">
+                                    Clifford Leung
+                                </p>
+                                <p className="text-lg text-[var(--secondary)] font-semibold">
+                                    Managing Director / State Manager
+                                </p>
+                            </div>
+                            <p className="text-[var(--text)]">
+                                Info
+                            </p>
+                            <p className="text-[var(--text)]">
+                                Info
+                            </p>
+                        </div>
+                    </div>
+                    
                 </section>
             </main>
 
-            {/* Footer */}
         </div>
     );
 }

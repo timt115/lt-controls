@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata & { verification: string } = {
-  title: "LT-Controls",
-  description: "LT-Controls, Your Automation Partner, we specialize in delivering cutting edge-software solutions tailored to meet the unique needs of our client. With a focus on innovation, quality, and customer satisfaction.",
+  title: "LT-Controls | Your Automation Partner",
+  description: "LT-Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
   icons: {
     icon: "/Logo Final CMYK.svg",
     shortcut: "/Logo Final CMYK.svg",

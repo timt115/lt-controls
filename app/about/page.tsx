@@ -6,14 +6,14 @@ export default function AboutUs() {
       <main className="px-6 sm:px-12 py-12">
         {/* Welcome Section */}
         <section className="mb-12 text-center">
-          <h1 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6">
             Welcome to LT Controls Pty Ltd
-          </h1>
+          </h2>
         </section>
 
         {/* About Us Section */}
         <section id="about" className="mb-12">
-          <h2 className="text-3xl font-bold mb-4">About Us</h2>
+          <h1 className="text-3xl font-bold mb-4">About Us</h1>
           <p className="text-lg mb-4">
             LT was founded in 2018, and since then has strived to deliver high-quality effective solutions to our clients and projects.
           </p>
@@ -75,7 +75,7 @@ export default function AboutUs() {
             <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
               <h3 className="text-xl font-bold mb-4 text-gray-900">PLC Systems</h3>
               <img
-                src="/plc-systems.jpg"
+                src="/PLC.webp"
                 alt="PLC Systems"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
@@ -89,7 +89,7 @@ export default function AboutUs() {
             <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
               <h3 className="text-xl font-bold mb-4 text-gray-900">SCADA Systems</h3>
               <img
-                src="/scada-systems.jpg"
+                src="/SCADA.webp"
                 alt="SCADA Systems"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
@@ -104,7 +104,7 @@ export default function AboutUs() {
             <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
               <h3 className="text-xl font-bold mb-4 text-gray-900">HMI</h3>
               <img
-                src="/hmi.jpg"
+                src="/HMI.webp"
                 alt="HMI"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
@@ -116,7 +116,7 @@ export default function AboutUs() {
             <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] hover:shadow-2xl text-center">
               <h3 className="text-xl font-bold mb-4 text-gray-900">DCS Systems</h3>
               <img
-                src="/dcs-systems.jpg"
+                src="/DCS.webp"
                 alt="DCS Systems"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
@@ -128,7 +128,7 @@ export default function AboutUs() {
             <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Other Services</h3>
               <img
-                src="/other-services.jpg"
+                src="/OTHERs.webp"
                 alt="Other Services"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
@@ -146,8 +146,8 @@ export default function AboutUs() {
             <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Network / Safety / Electrical</h3>
               <img
-                src="/instrumentation.jpg"
-                alt="Instrumentation"
+                src="/NetworkSafetyElectrical.webp"
+                alt="Network / Safety / Electrical"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
               <ul className="list-disc list-inside text-gray-600 space-y-2">
