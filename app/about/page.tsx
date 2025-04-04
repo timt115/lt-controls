@@ -6,7 +6,7 @@ export default function AboutUs() {
       <main className="px-6 sm:px-12 py-12">
         {/* Welcome Section */}
         <section className="mb-12 text-center">
-          <h2 className="text-4xl font-extrabold mb-6">
+          <h2 className="text-4xl font-extrabold mb-6 text-[var(--primary)]">
             Welcome to LT Controls Pty Ltd
           </h2>
         </section>

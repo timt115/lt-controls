@@ -3,7 +3,7 @@ export default function Management() {
         <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">
             {/* Header */}
             <header className="py-8 text-center">
-                <h1 className="text-4xl font-extrabold text-[var(--text)]">
+                <h1 className="text-4xl font-extrabold text-[var(--primary)]">
                     Our Management Team
                 </h1>
                 <p className="text-lg text-[var(--muted)] mt-4">

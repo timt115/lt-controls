@@ -26,12 +26,17 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/projects" className="text-sm hover:text-[var(--primary)] transition">
-                  Projects
+                  Our Projects
                 </a>
               </li>
               <li>
                 <a href="/contact" className="text-sm hover:text-[var(--primary)] transition">
                   Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="/management" className="text-sm hover:text-[var(--primary)] transition">
+                  Management Team
                 </a>
               </li>
             </ul>
@@ -48,7 +53,7 @@ export default function Footer() {
                 <span className="font-bold">Email:</span> <a href="mailto:info@ltcontrols.com" className="hover:text-[var(--primary)]">info@ltcontrols.com</a>
               </li>
               <li>
-                <span className="font-bold">Address:</span> 123 Automation Lane, Brisbane, QLD, Australia
+                <span className="font-bold">Address:</span> 1990 Logan Road, Upper Mount Gravatt Queensland 4122, Australia
               </li>
             </ul>
           </div>

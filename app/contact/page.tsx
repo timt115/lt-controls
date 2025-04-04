@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
             {/* Header */}
             <header className="py-8 text-center">
-                <h1 className="text-4xl font-extrabold text-[var(--text)]">
+                <h1 className="text-4xl font-extrabold text-[var(--primary)]">
                     Contact Us
                 </h1>
                 <p className="text-lg text-[var(--muted)] mt-4">
@@ -93,3 +93,4 @@ export default function Contact() {
         </div>
     );
 }
+
