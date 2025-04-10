@@ -18,10 +18,10 @@ export default function Management() {
           property="og:description"
           content="Discover the leaders behind LT-CONTROLS' success, including Young Tran and Clifford Leung, with expertise in automation and project management."
         />
-        <meta property="og:image" content="/favico.jpg" />
+        <meta property="og:image" content="/favico.svg" />
         <meta
           property="og:url"
-          content="https://www.ltcontrols.com/management"
+          content="https://www.lt-controls.com/management"
         />
         <meta property="og:type" content="website" />
 
@@ -35,10 +35,10 @@ export default function Management() {
           name="twitter:description"
           content="Meet the leadership team at LT-CONTROLS, including Young Tran and Clifford Leung, who drive innovation and success in automation solutions."
         />
-        <meta name="twitter:image" content="/favico.jpg" />
+        <meta name="twitter:image" content="/favico.svg" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.ltcontrols.com/management" />
+        <link rel="canonical" href="https://www.lt-controls.com/management" />
       </Head>
 
       <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">

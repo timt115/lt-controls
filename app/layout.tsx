@@ -52,19 +52,19 @@ export default function RootLayout({
           name="keywords"
           content="LT-CONTROLS, Automation, automation solutions, PLC programming, HMI design, SCADA systems, Food and Beverage Automation"
         />
-        <meta name="url" content="https://ltcontrols.com" />
+        <meta name="url" content="https://lt-controls.com" />
         <meta name="og:title" content="LT-CONTROLS" />
         <meta
           name="og:description"
           content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
         />
         <meta name="og:image" content="/favicon.svg" />
-        <meta name="og:url" content="https://ltcontrols.com" />
+        <meta name="og:url" content="https://lt-controls.com" />
         <meta name="og:type" content="website" />
         <meta name="og:site_name" content="LT-CONTROLS" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="/favicon.svg" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
 

@@ -24,11 +24,11 @@ export default function Home() {
           property="og:description"
           content="LT-CONTROLS specializes in delivering cutting-edge automation solutions."
         />
-        <meta property="og:image" content="/favico.jpg" />
-        <meta property="og:url" content="https://www.ltcontrols.com" />
+        <meta property="og:image" content="/favico.svg" />
+        <meta property="og:url" content="https://www.lt-controls.com" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/favico.jpg" />
-        <link rel="canonical" href="https://www.ltcontrols.com" />
+        <meta name="twitter:image" content="/favico.svg" />
+        <link rel="canonical" href="https://www.lt-controls.com" />
       </Head>
      
       <div className="min-h-screen bg-gray-100 text-gray-900 font-sans">

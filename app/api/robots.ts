@@ -5,7 +5,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ltcontrols.com/sitemap.xml
+Sitemap: https://www.lt-controls.com/sitemap.xml
 `;
 
   res.setHeader("Content-Type", "text/plain");

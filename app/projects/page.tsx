@@ -19,8 +19,8 @@ export default function Projects() {
           property="og:description"
           content="Discover how LT-CONTROLS delivered cutting-edge automation solutions for leading companies like JBS Foods, Australian Country Choice, and more."
         />
-        <meta property="og:image" content="/favico.jpg" />
-        <meta property="og:url" content="https://www.ltcontrols.com/projects" />
+        <meta property="og:image" content="/favico.svg" />
+        <meta property="og:url" content="https://www.lt-controls.com/projects" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Major Projects | LT-CONTROLS" />
@@ -28,8 +28,8 @@ export default function Projects() {
           name="twitter:description"
           content="Explore LT-CONTROLS' major projects, including automation solutions for JBS Foods, Australian Country Choice, and more."
         />
-        <meta name="twitter:image" content="/favico.jpg" />
-        <link rel="canonical" href="https://www.ltcontrols.com/projects" />
+        <meta name="twitter:image" content="/favico.svg" />
+        <link rel="canonical" href="https://www.lt-controls.com/projects" />
       </Head>
 
       <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">

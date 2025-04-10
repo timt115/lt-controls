@@ -19,11 +19,11 @@ export default function AboutUs() {
           property="og:description"
           content="Get in touch with LT-CONTROLS for 24/7 technical support, automation solutions, and business inquiries."
         />
-        <meta property="og:image" content="/favico.jpg" />
-        <meta property="og:url" content="https://www.ltcontrols.com/contact" />
+        <meta property="og:image" content="/favico.svg" />
+        <meta property="og:url" content="https://www.lt-controls.com/contact" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/favico.jpg" />
-        <link rel="canonical" href="https://www.ltcontrols.com/contact" />
+        <meta name="twitter:image" content="/favico.svg" />
+        <link rel="canonical" href="https://www.lt-controls.com/contact" />
       </Head>
 
       <div className="min-h-screen bg-[var(--background)] text-gray-900 font-sans">
