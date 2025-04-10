@@ -60,7 +60,8 @@ export default function Projects() {
                   <img
                     src="/jbs-logo.png"
                     alt="JBS Foods Logo"
-                    className="h-20 w-auto object-contain"
+                    className="h-20 w-auto object-contain hidden sm:block"
+                  
                   />
                 </div>
               </div>
@@ -160,7 +161,7 @@ export default function Projects() {
                   <img
                     src="/acc-logo.jpg"
                     alt="Australian Country Choice Logo"
-                    className="h-20 w-auto object-contain"
+                    className="h-20 w-auto object-contain hidden sm:block"
                   />
                 </div>
               </div>
@@ -301,7 +302,7 @@ export default function Projects() {
                   <img
                     src="/rpf-logo.avif"
                     alt="Real Pet Food Co Logo"
-                    className="h-20 w-auto object-contain"
+                    className="h-20 w-auto object-contain hidden sm:block"
                   />
                 </div>
               </div>
@@ -372,7 +373,7 @@ export default function Projects() {
                   <img
                     src="/norco-logo.jpg"
                     alt="Norco Milk Logo"
-                    className="h-20 w-auto object-contain"
+                    className="h-20 w-auto object-contain hidden sm:block"
                   />
                 </div>
               </div>
@@ -384,7 +385,7 @@ export default function Projects() {
                   <img
                     src="/norco-logo.jpg"
                     alt="Norco Milk Project"
-                    className="h-64 w-auto object-contain"
+                    className="h-64 w-auto object-contain "
                   />
                 </div>
                 {/* Second Card: Text Content */}
@@ -423,7 +424,7 @@ export default function Projects() {
                   <img
                     src="/grove-logo.svg"
                     alt="Grove Juice Logo"
-                    className="h-20 w-auto object-contain"
+                    className="h-20 w-auto object-contain hidden sm:block"
                   />
                 </div>
               </div>

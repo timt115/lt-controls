@@ -30,6 +30,7 @@ export default function Home() {
         <meta name="twitter:image" content="/favico.jpg" />
         <link rel="canonical" href="https://www.ltcontrols.com" />
       </Head>
+     
       <div className="min-h-screen bg-gray-100 text-gray-900 font-sans">
         {/* Hero Section */}
         <section
