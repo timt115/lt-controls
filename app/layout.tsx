@@ -21,9 +21,9 @@ export const metadata: Metadata & { verification: string } = {
   description:
     "LT-Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   verification: "--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0",
 };
@@ -58,13 +58,13 @@ export default function RootLayout({
           name="og:description"
           content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
         />
-        <meta name="og:image" content="/favicon.svg" />
+        <meta name="og:image" content="/favicon.ico" />
         <meta name="og:url" content="https://lt-controls.com" />
         <meta name="og:type" content="website" />
         <meta name="og:site_name" content="LT-CONTROLS" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/favicon.svg" />
-        <link rel="icon" href="/favicon.svg" />
+        <meta name="twitter:image" content="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
 
