@@ -37,11 +37,11 @@ export default function Projects() {
         <main className="px-6 sm:px-12 py-12 bg-[var(--background)]">
           {/* Title Section */}
           <section className="mb-12 text-center">
-            <h1 className="text-4xl font-extrabold text-[var(--text)] mb-6">
+            <h1 className="text-4xl font-extrabold text-[var(--primary)] mb-6">
               Major Projects
             </h1>
             <p className="text-lg text-[var(--text)]">
-              Since 2018, LT-Controls has taken on a lot of challenges, starting
+              LT-Controls has taken on a lot of challenges, starting
               from breakdown jobs and gradually taking on massive automation
               programming projects.
             </p>

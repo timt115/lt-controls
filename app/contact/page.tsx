@@ -54,7 +54,7 @@ export default function Contact() {
               <p className="mt-4 text-2xl font-bold text-[var(--danger)]">
                 24 HOURS SUPPORT HOTLINE
               </p>
-              <p className="text-lg text-[var(--text)]">+61 34 567 890</p>
+              <p className="text-lg text-[var(--text)]">+61 428 600 686</p>
             </section>
 
             {/* Contact Form Section */}
@@ -77,14 +77,14 @@ export default function Contact() {
                   <strong>LT-Controls Pty Ltd</strong>
                 </p>
                 <p className="text-lg">
-                  1990 Logan Road, Upper Mount Gravatt Queensland 4122,
+                  Unit 8B / 1990 Logan Road, Upper Mount Gravatt Queensland 4122,
                   Australia
                 </p>
                 <p className="text-lg">
                   <strong>Phone:</strong> +61 428 600 686
                 </p>
                 <p className="text-lg">
-                  <strong>Email:</strong> @lt-controls.com
+                  <strong>Email:</strong> sales@lt-controls.com
                 </p>
               </div>
               <div className="mt-6">

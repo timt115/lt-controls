@@ -40,7 +40,7 @@ export default function Home() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-extrabold mb-4">
-              Welcome to LT-CONTROLS
+              L T - C O N T R O L S
             </h1>
             <p className="text-lg mb-6">
               Your trusted partner in delivering cutting-edge automation
@@ -213,6 +213,30 @@ export default function Home() {
               <Image
                 src="/rpf-logo.avif"
                 alt="Client 3"
+                width={100}
+                height={50}
+              />
+              <Image
+                src="/kpc-logo.avif"
+                alt="Client 4"
+                width={100}
+                height={50}
+              />
+              <Image
+                src="/primo-logo.png"
+                alt="Client 5"
+                width={100}
+                height={50}
+              />
+              <Image
+                src="/teys-logo.png"
+                alt="Client 6"
+                width={100}
+                height={50}
+              />
+              <Image
+                src="/dexion-logo.png"
+                alt="Client 7"
                 width={100}
                 height={50}
               />

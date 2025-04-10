@@ -47,13 +47,13 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <span className="font-bold">Phone:</span> <a href="tel:+1234567890" className="hover:text-[var(--primary)]">+61 123 456 789</a>
+                <span className="font-bold">Phone:</span> <a href="tel:+1234567890" className="hover:text-[var(--primary)]">+61 428 600 686</a>
               </li>
               <li>
-                <span className="font-bold">Email:</span> <a href="mailto:info@lt-controls.com" className="hover:text-[var(--primary)]">info@lt-controls.com</a>
+                <span className="font-bold">Email:</span> <a href="mailto:info@lt-controls.com" className="hover:text-[var(--primary)]">sales@lt-controls.com</a>
               </li>
               <li>
-                <span className="font-bold">Address:</span> 1990 Logan Road, Upper Mount Gravatt Queensland 4122, Australia
+                <span className="font-bold">Address:</span> Unit 8B / 1990 Logan Road, Upper Mount Gravatt Queensland 4122, Australia
               </li>
             </ul>
           </div>

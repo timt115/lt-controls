@@ -5,25 +5,25 @@ export default function AboutUs() {
     <>
       {/* Meta Tags */}
       <Head>
-        <title>Contact Us | LT-CONTROLS</title>
+        <title>About Us | LT-CONTROLS</title>
         <meta
           name="description"
-          content="Get in touch with LT-CONTROLS for 24/7 technical support, automation solutions, and business inquiries. Visit us or call our hotline for assistance."
+          content="About Us, LT-Controls - Your trusted partner in delivering cutting-edge automation solutions. Learn about our vision, mission, and values."
         />
         <meta
           name="keywords"
-          content="Contact LT-CONTROLS, Automation Support, 24/7 Technical Support, Automation Solutions, Business Hours"
+          content="About Us, Automation Support, 24/7 Technical Support, Automation Solutions, Our Vision, Our Mission, Our Values, PLC Systems, SCADA Systems, HMI, DCS Systems, Electrical Design"
         />
-        <meta property="og:title" content="Contact Us | LT-CONTROLS" />
+        <meta property="og:title" content="About Us | LT-CONTROLS" />
         <meta
           property="og:description"
-          content="Get in touch with LT-CONTROLS for 24/7 technical support, automation solutions, and business inquiries."
+          content="About Us, LT-Controls - Your trusted partner in delivering cutting-edge automation solutions. Learn about our vision, mission and values."
         />
         <meta property="og:image" content="/favico.svg" />
-        <meta property="og:url" content="https://www.lt-controls.com/contact" />
+        <meta property="og:url" content="https://www.lt-controls.com/about" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="/favico.svg" />
-        <link rel="canonical" href="https://www.lt-controls.com/contact" />
+        <link rel="canonical" href="https://www.lt-controls.com/about" />
       </Head>
 
       <div className="min-h-screen bg-[var(--background)] text-gray-900 font-sans">
@@ -239,7 +239,7 @@ export default function AboutUs() {
                 />
                 <ul className="list-disc list-inside text-gray-600 space-y-2">
                   <li>
-                    Networking (Layer 1 / Layer 2 / Layer 3 ( Cisco, Stratix),
+                    Networking ( Layer 2 / Layer 3 ( Cisco, Stratix),
                     Cyber security.
                   </li>
                   <li>Functional Safety design and verification.</li>

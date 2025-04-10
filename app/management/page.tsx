@@ -72,7 +72,7 @@ export default function Management() {
                   </p>
                 </div>
                 <p className="text-[var(--text)]">
-                  Young is the founder of LT, graduated from UQ with a Bachelor
+                  Young is a founder of LT, graduated from UQ with a Bachelor
                   of Engineering in Electrical and Electronics Engineering and
                   holds the Master of Project Management qualifications.
                 </p>
@@ -104,8 +104,21 @@ export default function Management() {
                     Managing Director / State Manager
                   </p>
                 </div>
-                <p className="text-[var(--text)]">Info</p>
-                <p className="text-[var(--text)]">Info</p>
+                <p className="text-[var(--text)]">
+                  Clifford is a founder of LT, graduated from UQ with a Bachelor
+                  of Engineering in Computer Systems and biomedical engineering.
+                </p>
+                <p className="text-[var(--text)]">
+                  Clifford is a competent control systems engineer with in-depth experience
+                  in PLC, SCADA and HMI design, programming and commissioning,
+                  and broad experience in other fields such as safety, variable
+                  speed drives, communications networks, training and quoting
+                  projects. Consistent track record of successfully completing
+                  projects to required specifications, on time and within budget
+                  from design through to commissioning, with projects ranging
+                  from programming a HMI for a single OEM machine through to
+                  automating entire factories.
+                </p>
               </div>
             </div>
           </section>

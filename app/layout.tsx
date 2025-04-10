@@ -37,8 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta
           name="google-site-verification"
           content="--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0"
@@ -54,10 +53,13 @@ export default function RootLayout({
         />
         <meta name="url" content="https://lt-controls.com" />
         <meta name="og:title" content="LT-CONTROLS" />
+
+        {/*
         <meta
           name="og:description"
           content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
-        />
+        /> */}
+
         <meta name="og:image" content="/favicon.ico" />
         <meta name="og:url" content="https://lt-controls.com" />
         <meta name="og:type" content="website" />
@@ -82,3 +84,4 @@ export default function RootLayout({
     </html>
   );
 }
+
