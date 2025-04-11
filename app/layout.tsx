@@ -42,32 +42,6 @@ export default function RootLayout({
           name="google-site-verification"
           content="--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0"
         />
-        <title>LT-CONTROLS</title>
-        <meta
-          name="description"
-          content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
-        />
-        <meta
-          name="keywords"
-          content="LT-CONTROLS, LTControls ,LT Control, ltcontrol, Brisbane, Australia, Automation, automation solutions, PLC programming, HMI design, SCADA systems, Food and Beverage Automation, Industrial Automation, Process Control, Electrical Engineering, Automation Experts, Control Systems, Automation Brisbane, Automation Australia"
-        />
-        <meta name="url" content="https://lt-controls.com" />
-        <meta name="og:title" content="LT-CONTROLS" />
-
-        {/*
-        <meta
-          name="og:description"
-          content="LT-CONTROLS - Your trusted partner in delivering cutting-edge automation solutions."
-        /> */}
-
-        <meta name="og:image" content="/favicon.ico" />
-        <meta name="og:url" content="https://lt-controls.com" />
-        <meta name="og:type" content="website" />
-        <meta name="og:site_name" content="LT-CONTROLS" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
 
       <body

@@ -14,7 +14,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="LT-CONTROLS, Automation, PLC programming, HMI design, SCADA systems, Industrial Automation"
+          content="LT-CONTROLS, LTControls, LT Controls, Automation, PLC programming, HMI design, SCADA systems, Industrial Automation"
         />
         <meta
           property="og:title"
