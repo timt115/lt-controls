@@ -49,7 +49,7 @@ export default function RootLayout({
         />
         <meta
           name="keywords"
-          content="LT-CONTROLS, Automation, automation solutions, PLC programming, HMI design, SCADA systems, Food and Beverage Automation"
+          content="LT-CONTROLS, LTControls ,LT Control, ltcontrol, Brisbane, Australia, Automation, automation solutions, PLC programming, HMI design, SCADA systems, Food and Beverage Automation, Industrial Automation, Process Control, Electrical Engineering, Automation Experts, Control Systems, Automation Brisbane, Automation Australia"
         />
         <meta name="url" content="https://lt-controls.com" />
         <meta name="og:title" content="LT-CONTROLS" />

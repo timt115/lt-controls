@@ -39,8 +39,8 @@ export default function Home() {
           style={{ backgroundImage: "url('/bghero.png')" }}
         >
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-extrabold mb-4">
-              L T - C O N T R O L S
+            <h1 className="text-5xl font-extrabold letter-spacing-widest mb-4 sm-text-l ">
+              LT-CONTROLS
             </h1>
             <p className="text-lg mb-6">
               Your trusted partner in delivering cutting-edge automation
@@ -197,7 +197,8 @@ export default function Home() {
             <h2 className="text-4xl font-extrabold text-[var(--primary)] mb-6">
               Trusted By
             </h2>
-            <div className="flex justify-center gap-8 bg-white p-6 rounded-lg shadow-lg m-auto max-w-4xl">
+            <div className="flex justify-center">
+              <div className="grid grid-cols-5 justify-items-center gap-8 bg-white p-6 rounded-lg shadow-lg m-auto max-w-4xl sm:grid-cols-3">
               <Image
                 src="/acc-logo.jpg"
                 alt="Client 1"
@@ -237,9 +238,11 @@ export default function Home() {
               <Image
                 src="/dexion-logo.png"
                 alt="Client 7"
-                width={100}
-                height={50}
+                width={200}
+                height={100}
+                className="justify-self-center align-self-center"
               />
+              </div>
             </div>
           </section>
 

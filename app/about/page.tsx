@@ -29,10 +29,11 @@ export default function AboutUs() {
       <div className="min-h-screen bg-[var(--background)] text-gray-900 font-sans">
         {/* Main Content */}
         <main className="px-6 sm:px-12 py-12">
+
           {/* Welcome Section */}
           <section className="mb-12 text-center">
             <h2 className="text-4xl font-extrabold mb-6 text-[var(--primary)]">
-              Welcome to LT Controls Pty Ltd
+              Welcome to LT-Controls
             </h2>
           </section>
 
@@ -40,7 +41,7 @@ export default function AboutUs() {
           <section id="about" className="mb-12">
             <h1 className="text-3xl font-bold mb-4">About Us</h1>
             <p className="text-lg mb-4">
-              LT-Controls was founded in 2018, and since then has strived to
+              LT-Controls has strived to
               deliver high-quality effective solutions to our clients and
               projects.
             </p>
@@ -133,6 +134,7 @@ export default function AboutUs() {
               brownfield projects.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
               {/* Card 1 */}
               <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">
@@ -151,6 +153,7 @@ export default function AboutUs() {
                   <li>Siemens Simatic Manager / Siemens TIA 15 - 17.</li>
                 </ul>
               </div>
+
               {/* Card 2 */}
               <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">
@@ -167,6 +170,7 @@ export default function AboutUs() {
                   <li>Win CC, Adroit, Ignition and Wonderware.</li>
                 </ul>
               </div>
+
               {/* Card 3 */}
               <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">HMI</h3>
@@ -182,6 +186,7 @@ export default function AboutUs() {
                   </li>
                 </ul>
               </div>
+
               {/* Card 4 */}
               <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] hover:shadow-2xl text-center">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">
@@ -196,6 +201,7 @@ export default function AboutUs() {
                   <li>Yokogawa , Honeywell , Foxboro.</li>
                 </ul>
               </div>
+
               {/* Card 5 */}
               <div className="p-6 rounded-lg shadow-lg bg-[var(--foreground)] text-center">
                 <h3 className="text-xl font-bold mb-4 text-gray-900">
