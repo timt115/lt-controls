@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LT-CONTROLS | Your Automation Partner</title>
+        <title>LT-Controls | Your Automation Partner</title>
         <meta
           name="description"
-          content="LT-CONTROLS specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems."
+          content="LT-Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems."
         />
         <meta
           name="keywords"
@@ -24,10 +24,12 @@ export default function Home() {
           property="og:description"
           content="LT-CONTROLS specializes in delivering cutting-edge automation solutions."
         />
-        <meta property="og:image" content="/favico.svg" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image" content="/favico.ico" />
         <meta property="og:url" content="https://www.lt-controls.com" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/favico.svg" />
+        <meta name="twitter:image" content="/favico.ico" />
         <link rel="canonical" href="https://www.lt-controls.com" />
       </Head>
      
