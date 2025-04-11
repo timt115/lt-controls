@@ -5,31 +5,31 @@ export default function Projects() {
     <>
       {/* Meta Tags */}
       <Head>
-        <title>Major Projects | LT-CONTROLS</title>
+        <title>Major Projects | LT Controls</title>
         <meta
           name="description"
-          content="Explore the major projects completed by LT-CONTROLS, including automation solutions for JBS Foods, Australian Country Choice, Real Pet Food Co, Norco Milk, and Grove Juice."
+          content="Explore the major projects completed by LT Controls, including automation solutions for JBS Foods, Australian Country Choice, Real Pet Food Co, Norco Milk, and Grove Juice."
         />
         <meta
           name="keywords"
-          content="LT-CONTROLS Projects, Automation Solutions, JBS Foods, Australian Country Choice, Real Pet Food Co, Norco Milk, Grove Juice, PLC Programming, SCADA Systems, HMI Design"
+          content="LT Controls Projects, Automation Solutions, JBS Foods, Australian Country Choice, Real Pet Food Co, Norco Milk, Grove Juice, PLC Programming, SCADA Systems, HMI Design"
         />
-        <meta property="og:title" content="Major Projects | LT-CONTROLS" />
+        <meta property="og:title" content="Major Projects | LT Controls" />
         <meta
           property="og:description"
-          content="Discover how LT-CONTROLS delivered cutting-edge automation solutions for leading companies like JBS Foods, Australian Country Choice, and more."
+          content="Discover how LT Controls delivered cutting-edge automation solutions for leading companies like JBS Foods, Australian Country Choice, and more."
         />
         <meta property="og:image" content="/favico.svg" />
-        <meta property="og:url" content="https://www.lt-controls.com/projects" />
+        <meta property="og:url" content="https://www.LT Controls.com/projects" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Major Projects | LT-CONTROLS" />
+        <meta name="twitter:title" content="Major Projects | LT Controls" />
         <meta
           name="twitter:description"
-          content="Explore LT-CONTROLS' major projects, including automation solutions for JBS Foods, Australian Country Choice, and more."
+          content="Explore LT Controls' major projects, including automation solutions for JBS Foods, Australian Country Choice, and more."
         />
         <meta name="twitter:image" content="/favico.svg" />
-        <link rel="canonical" href="https://www.lt-controls.com/projects" />
+        <link rel="canonical" href="https://www.LT Controls.com/projects" />
       </Head>
 
       <div className="min-h-screen bg-[var(--background)] text-[var(--text)] font-sans">
@@ -41,7 +41,7 @@ export default function Projects() {
               Major Projects
             </h1>
             <p className="text-lg text-[var(--text)]">
-              LT-Controls has taken on a lot of challenges, starting
+              LT Controls has taken on a lot of challenges, starting
               from breakdown jobs and gradually taking on massive automation
               programming projects.
             </p>
@@ -82,7 +82,7 @@ export default function Projects() {
                     CHILLERS AND MARSHALLING PROCESS
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls engineered a very unique world’s first new
+                    LT Controls engineered a very unique world’s first new
                     automatic grading and sorting system for a leading global
                     food company JBS beef Foods with operations in the United
                     States, Australia, Canada, Europe, Mexico, New Zealand and
@@ -111,7 +111,7 @@ export default function Projects() {
                     KILL FLOOR UPGRADE
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was approached to perform an upgrade of the JBS
+                    LT Controls was approached to perform an upgrade of the JBS
                     Kill Floor PLC program from SLC to an Allen Bradley Control
                     Logix. This program included converting 15 IO racks
                     consisting of DHRIO and Device Net as well as the Kill Floor
@@ -119,10 +119,10 @@ export default function Projects() {
                     includes remapping all the IO and removing all aliases from
                     the program. As well as this, the Experion SCADA System
                     needed to have updated tag addresses for the new PLC.
-                    LT-Controls also remapped all the devices and removed 2
+                    LT Controls also remapped all the devices and removed 2
                     Device Net racks and converted these to Ethernet Point IO.
                     Finally, as well as supervising the electrical and IO
-                    Testing, LT-Controls implemented a fibre ring for network
+                    Testing, LT Controls implemented a fibre ring for network
                     redundancy in the case of any nodes dropping out.
                   </p>
                   <p className="italic text-[var(--muted)]">
@@ -136,7 +136,7 @@ export default function Projects() {
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
                     When JBS was looking to upgrade the APV PLC from Allen
-                    Bradley SLC to Allen Bradley Control Logix, LT-Controls was
+                    Bradley SLC to Allen Bradley Control Logix, LT Controls was
                     contacted for the job. This involved merging the existing
                     PLC code into the new Kill Floor PLC and commissioning all
                     the IO as it was wired into the new PLC. As well as this, a
@@ -182,7 +182,7 @@ export default function Projects() {
                     HOT MEAT CHILLER UPGRADE
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was engaged to perform a complete reprogram and
+                    LT Controls was engaged to perform a complete reprogram and
                     PLC upgrade for the Hot Meat Chillers at Australian Country
                     Choice (ACC). This project consisted of 10 chillers, with
                     each chiller being able to choose from 10 different profiles
@@ -193,7 +193,7 @@ export default function Projects() {
                     implemented to ensure precise control of the system. These
                     control systems needed security measures to ensure only
                     those authorised could control the operation. In conjunction
-                    with this, LT-Controls reprogrammed the Ammonia detection
+                    with this, LT Controls reprogrammed the Ammonia detection
                     and implemented SMS alarms to alert supervisors when these
                     alarms were triggered. The commissioning of this project was
                     split into two stages with Chiller’s 1 to 4 being completed
@@ -210,20 +210,20 @@ export default function Projects() {
                     KILLING FLOOR UPGRADE
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was contracted to assist in raising the Kill
+                    LT Controls was contracted to assist in raising the Kill
                     Floor Chain by 1m with Wiley’s and CEQ to allow for bigger
                     beef to be processed. This included adding a new head
                     removal hoist and reprogramming it to fit with the new
                     height of the chain. As well as this, 4 new stimulation
                     points were added in and the hide puller needed to be
                     reprogrammed with a new stimulation arm. As well as this,
-                    the hock restrainer was commissioned by LT-Controls and the
+                    the hock restrainer was commissioned by LT Controls and the
                     Elevator was also reprogrammed and commissioned. The
                     existing Panelview HMI was removed and replaced with a
-                    Beijer HMI. LT-Controls was also responsible for the master
+                    Beijer HMI. LT Controls was also responsible for the master
                     slave synchronisation for the main chain on the Kill Floor.
                     During the commissioning phase and for a period of time
-                    following, LT-Controls offered 24 hour coverage to ensure
+                    following, LT Controls offered 24 hour coverage to ensure
                     operation went as planned.
                   </p>
                   <p className="italic text-[var(--muted)]">
@@ -237,7 +237,7 @@ export default function Projects() {
                     BONING ROOM UPGRADE
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was engaged by CEQ to aid in the programming of
+                    LT Controls was engaged by CEQ to aid in the programming of
                     the ACC Boning Room Upgrade, and as part of this were
                     required to reprogram many areas. These areas included the
                     Primal, Waste Bone, Quartering Area, North and South Boning
@@ -254,12 +254,12 @@ export default function Projects() {
                     LIDDER UPGRADE
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was required to reprogram the entire conveyor
+                    LT Controls was required to reprogram the entire conveyor
                     system at the backend of the boning room to the Lidder feed.
                     This projected required the control of over 60 conveyors and
                     had 3 merge points. As well as this, the system contained 4
                     Lector SICK barcode scanners to decide where the carton
-                    needed to be sent. LT-Controls also created a FactoryTalk ME
+                    needed to be sent. LT Controls also created a FactoryTalk ME
                     HMI and Ignition SCADA page to control the system.
                   </p>
                   <p className="italic text-[var(--muted)]">
@@ -272,7 +272,7 @@ export default function Projects() {
                     KILL FLOOR SAFETY
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was approached to perform an upgrade on the Kill
+                    LT Controls was approached to perform an upgrade on the Kill
                     Floor Safety System at Australian Country Choice. This
                     required the removal of all the IFM ASI Safety equipment and
                     replacing it with Allen Bradley Guard Logix IO. In
@@ -323,9 +323,9 @@ export default function Projects() {
                     DOG ROLL LINE UPGRADE
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    LT-Controls was recently tasked with reprogramming the whole
+                    LT Controls was recently tasked with reprogramming the whole
                     Dog Roll Line at Real Pet Food which had previously suffered
-                    from several issues. LT-Controls was informed that numerous
+                    from several issues. LT Controls was informed that numerous
                     programmers had been consulted for the project, but none had
                     been able to solve the problem. This system used 3 fillers
                     and 3 coolers, and the synchronisation of conveyor speeds
@@ -349,7 +349,7 @@ export default function Projects() {
                     The Chunkers Line was originally running with Omron PLC and
                     Exor HMI. The line has 2 existing cookers and a new cooker
                     was installed to increase the production compacity.
-                    LT-Controls programmed the operation of the new cooker and
+                    LT Controls programmed the operation of the new cooker and
                     at the same time reprogrammed the whole Chunkers Line with
                     Allen Bradley PLC and VSD from the mixing area, cooking
                     area, conveyor system and packing area. And converted the
@@ -394,7 +394,7 @@ export default function Projects() {
                     FILLER 2 MILK RECLAIM UPGRADE & CIP KITCHEN{" "}
                   </h3>
                   <p className="text-lg leading-relaxed text-[var(--text)] flex-grow mb-4">
-                    At Norco Milk Labrador, LT-Controls was responsible for the
+                    At Norco Milk Labrador, LT Controls was responsible for the
                     Filler 2 Milk Reclaim Upgrade. This consisted of
                     implementing a new system to recover lost milk as well as a
                     new CIP program. As well as this, a new CIP Kitchen was to

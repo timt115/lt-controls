@@ -7,7 +7,7 @@ export default function Header() {
       {/* Logo Section */}
       <div className="flex items-center gap-4 justify-center">
         <Link href="/">
-        <Image src="/LTControlsLogoCol.png" alt="LT-Controls Logo" width={200} height={0} />
+        <Image src="/LTControlsLogoCol.png" alt="LT Controls Logo" width={200} height={0} />
         </Link>
       </div>
 

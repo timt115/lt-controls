@@ -6,23 +6,24 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
+      {/* Global Metadata */}
       <Head>
-        <title>LT-Controls | Your Automation Partner</title>
+        <title>LT Controls | Your Automation Partner</title>
         <meta
           name="description"
-          content="LT-Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems."
+          content="LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems."
         />
         <meta
           name="keywords"
-          content="LT-CONTROLS, LTControls, LT Controls, Automation, PLC programming, HMI design, SCADA systems, Industrial Automation"
+          content="LT Controls, LTControls, LT Control,ltcontrols, ltcontrol, Brisbane, Australia, Automation, PLC programming, HMI design, SCADA systems, Industrial Automation"
         />
         <meta
           property="og:title"
-          content="LT-CONTROLS | Your Automation Partner"
+          content="LT Controls | Your Automation Partner"
         />
         <meta
           property="og:description"
-          content="LT-CONTROLS specializes in delivering cutting-edge automation solutions."
+          content="LT Controls specializes in delivering cutting-edge automation solutions."
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +33,7 @@ export default function Home() {
         <meta name="twitter:image" content="/favico.ico" />
         <link rel="canonical" href="https://www.lt-controls.com" />
       </Head>
-     
+
       <div className="min-h-screen bg-gray-100 text-gray-900 font-sans">
         {/* Hero Section */}
         <section
@@ -42,7 +43,7 @@ export default function Home() {
         >
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-extrabold letter-spacing-widest mb-4 sm-text-l ">
-              LT-CONTROLS
+              LT CONTROLS
             </h1>
             <p className="text-lg mb-6">
               Your trusted partner in delivering cutting-edge automation
@@ -68,7 +69,7 @@ export default function Home() {
             <div className="flex-shrink-0 w-full sm:w-1/2">
               <Image
                 src="/summary.png"
-                alt="Overview of LT-Controls' automation services"
+                alt="Overview of LT Controls' automation services"
                 width={600}
                 height={600}
                 className="rounded-lg object-cover w-full h-full"
@@ -78,7 +79,7 @@ export default function Home() {
             {/* Text Section */}
             <div className="flex flex-col justify-center text-center sm:text-left">
               <h2 className="text-3xl text-[var(--primary)] font-extrabold mb-4">
-                Welcome to LT-CONTROLS
+                Welcome to LT CONTROLS
               </h2>
               <h4 className="text-2xl font-bold text-[var(--secondary)] mb-6">
                 Your Automation Partner
@@ -124,7 +125,7 @@ export default function Home() {
             className="flex flex-col gap-5 items-center text-center px-6 sm:px-12 mb-12"
           >
             <h2 className="text-4xl font-extrabold text-[var(--primary)] mb-6">
-              About LT-CONTROLS
+              About LT Controls
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
               {/* Card 1 */}
@@ -195,55 +196,68 @@ export default function Home() {
           </section>
 
           {/* Trustedby Section */}
-          <section id="clients" className="py-12 text-center">
+          <section 
+          id="clients" className="py-12 text-center">
             <h2 className="text-4xl font-extrabold text-[var(--primary)] mb-6">
               Trusted By
             </h2>
             <div className="flex justify-center">
               <div className="grid grid-cols-5 justify-items-center gap-8 bg-white p-6 rounded-lg shadow-lg m-auto max-w-4xl sm:grid-cols-3">
-              <Image
-                src="/acc-logo.jpg"
-                alt="Client 1"
-                width={100}
-                height={50}
-              />
-              <Image
-                src="/jbs-logo.png"
-                alt="Client 2"
-                width={100}
-                height={50}
-              />
-              <Image
-                src="/rpf-logo.avif"
-                alt="Client 3"
-                width={100}
-                height={50}
-              />
-              <Image
-                src="/kpc-logo.avif"
-                alt="Client 4"
-                width={100}
-                height={50}
-              />
-              <Image
-                src="/primo-logo.png"
-                alt="Client 5"
-                width={100}
-                height={50}
-              />
-              <Image
-                src="/teys-logo.png"
-                alt="Client 6"
-                width={100}
-                height={50}
-              />
-              <Image
-                src="/dexion-logo.png"
-                alt="Client 7"
-                width={200}
-                height={100}
-                className="justify-self-center align-self-center"
-              />
+                <Image
+                  src="/acc-logo.jpg"
+                  alt="Client 1"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/jbs-logo.png"
+                  alt="Client 2"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/rpf-logo.avif"
+                  alt="Client 3"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/kpc-logo.avif"
+                  alt="Client 4"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/primo-logo.png"
+                  alt="Client 5"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/teys-logo.png"
+                  alt="Client 6"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/dexion-logo.png"
+                  alt="Client 7"
+                  width={200}
+                  height={100}
+                  className="justify-self-center align-self-center"
+                />
+                <Image
+                  src="/norco-logo.jpg"
+                  alt="Client 8"
+                  width={100}
+                  height={50}
+                />
+                <Image
+                  src="/grove-logo.svg"
+                  alt="Client 9"
+                  width={100}
+                  height={50}
+                />
               </div>
             </div>
           </section>

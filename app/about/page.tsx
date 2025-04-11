@@ -5,19 +5,19 @@ export default function AboutUs() {
     <>
       {/* Meta Tags */}
       <Head>
-        <title>About Us | LT-CONTROLS</title>
+        <title>About Us | LT CONTROLS</title>
         <meta
           name="description"
-          content="About Us, LT-Controls - Your trusted partner in delivering cutting-edge automation solutions. Learn about our vision, mission, and values."
+          content="About Us, LT Controls - Your trusted partner in delivering cutting-edge automation solutions. Learn about our vision, mission, and values."
         />
         <meta
           name="keywords"
           content="About Us, Automation Support, 24/7 Technical Support, Automation Solutions, Our Vision, Our Mission, Our Values, PLC Systems, SCADA Systems, HMI, DCS Systems, Electrical Design"
         />
-        <meta property="og:title" content="About Us | LT-CONTROLS" />
+        <meta property="og:title" content="About Us | LT Controls" />
         <meta
           property="og:description"
-          content="About Us, LT-Controls - Your trusted partner in delivering cutting-edge automation solutions. Learn about our vision, mission and values."
+          content="About Us, LT Controls - Your trusted partner in delivering cutting-edge automation solutions. Learn about our vision, mission and values."
         />
         <meta property="og:image" content="/favico.svg" />
         <meta property="og:url" content="https://www.lt-controls.com/about" />
@@ -33,7 +33,7 @@ export default function AboutUs() {
           {/* Welcome Section */}
           <section className="mb-12 text-center">
             <h2 className="text-4xl font-extrabold mb-6 text-[var(--primary)]">
-              Welcome to LT-Controls
+              Welcome to LT Controls
             </h2>
           </section>
 
@@ -41,12 +41,12 @@ export default function AboutUs() {
           <section id="about" className="mb-12">
             <h1 className="text-3xl font-bold mb-4">About Us</h1>
             <p className="text-lg mb-4">
-              LT-Controls has strived to
+              LT Controls has strived to
               deliver high-quality effective solutions to our clients and
               projects.
             </p>
             <p className="text-lg mb-4">
-              Across South-East Queensland, LT-Controls has been involved in
+              Across South-East Queensland, LT Controls has been involved in
               greenfield and brownfield projects and is always looking for ways
               to satisfy the client’s requests. One of the ways we look to stand
               out among others is in the nature of our automation solutions.
@@ -56,7 +56,7 @@ export default function AboutUs() {
               use and ensures efficiency in processes across the site.
             </p>
             <p className="text-lg">
-              The employees of LT-Controls all place high value on the client’s
+              The employees of LT Controls all place high value on the client’s
               requests and thoughts and will seek to provide the best solution
               for you. It is through this customer-centered approach that LT has
               been able to grow its client base and expand further into multiple
@@ -80,7 +80,7 @@ export default function AboutUs() {
           <section id="mission" className="mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
             <p className="text-lg">
-              LT will continue to provide solutions and support to the growing
+              LT Controls will continue to provide solutions and support to the growing
               Food and Beverage industry across Queensland with the desire to
               expand into the water, mining, oil & gas, and renewable energy
               sectors. We will ensure the happiness of our customers through

@@ -4,19 +4,19 @@ export default function Management() {
   return (
     <>
       <Head>
-        <title>Our Management Team | LT-CONTROLS</title>
+        <title>Our Management Team | LT Controls</title>
         <meta
           name="description"
-          content="Meet the leadership team at LT-CONTROLS, including Young Tran and Clifford Leung, who drive innovation and success in automation solutions."
+          content="Meet the leadership team at LT Controls, including Young Tran and Clifford Leung, who drive innovation and success in automation solutions."
         />
         <meta
           name="keywords"
-          content="LT-CONTROLS Management Team, Leadership, Young Tran, Clifford Leung, Automation Experts, Managing Directors, Project Management, Automation Solutions"
+          content="LT Controls Management Team, Leadership, Young Tran, Clifford Leung, Automation Experts, Managing Directors, Project Management, Automation Solutions"
         />
-        <meta property="og:title" content="Our Management Team | LT-CONTROLS" />
+        <meta property="og:title" content="Our Management Team | LT Controls" />
         <meta
           property="og:description"
-          content="Discover the leaders behind LT-CONTROLS' success, including Young Tran and Clifford Leung, with expertise in automation and project management."
+          content="Discover the leaders behind LT Controls' success, including Young Tran and Clifford Leung, with expertise in automation and project management."
         />
         <meta property="og:image" content="/favico.svg" />
         <meta
@@ -29,11 +29,11 @@ export default function Management() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Our Management Team | LT-CONTROLS"
+          content="Our Management Team | LT Controls"
         />
         <meta
           name="twitter:description"
-          content="Meet the leadership team at LT-CONTROLS, including Young Tran and Clifford Leung, who drive innovation and success in automation solutions."
+          content="Meet the leadership team at LT Controls, including Young Tran and Clifford Leung, who drive innovation and success in automation solutions."
         />
         <meta name="twitter:image" content="/favico.svg" />
 
@@ -72,7 +72,7 @@ export default function Management() {
                   </p>
                 </div>
                 <p className="text-[var(--text)]">
-                  Young is a founder of LT, graduated from UQ with a Bachelor
+                  Young is a founder of LT Controls, graduated from UQ with a Bachelor
                   of Engineering in Electrical and Electronics Engineering and
                   holds the Master of Project Management qualifications.
                 </p>
@@ -105,7 +105,7 @@ export default function Management() {
                   </p>
                 </div>
                 <p className="text-[var(--text)]">
-                  Clifford is a founder of LT, graduated from UQ with a Bachelor
+                  Clifford is a founder of LT Controls, graduated from UQ with a Bachelor
                   of Engineering in Computer Systems and biomedical engineering.
                 </p>
                 <p className="text-[var(--text)]">

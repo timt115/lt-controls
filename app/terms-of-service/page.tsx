@@ -13,7 +13,7 @@ export default function TermsOfService() {
           content="Terms and Conditions for using our service."
         />
         <meta name="keywords" content="terms, conditions, service" />
-        <meta name="author" content="LT-Controls" />
+        <meta name="author" content="LT Controls" />
         <meta name="robots" content="index, follow" />
       </head>
       <div className="pdf-container" style={{ height: "100vh", width: "100%" }}>

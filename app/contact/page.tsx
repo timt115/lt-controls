@@ -5,19 +5,19 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us | LT-CONTROLS</title>
+        <title>Contact Us | LT Controls</title>
         <meta
           name="description"
-          content="Get in touch with LT-CONTROLS for 24/7 technical support, automation solutions, and business inquiries. Visit us or call our hotline for assistance."
+          content="Get in touch with LT Controls for 24/7 technical support, automation solutions, and business inquiries. Visit us or call our hotline for assistance."
         />
         <meta
           name="keywords"
-          content="Contact LT-CONTROLS, Automation Support, 24/7 Technical Support, Automation Solutions, Business Hours"
+          content="LT Controls, LTControls, ltcontrol,Contact LT Controls, Automation Support, 24/7 Technical Support, Automation Solutions, Business Hours"
         />
-        <meta property="og:title" content="Contact Us | LT-CONTROLS" />
+        <meta property="og:title" content="Contact Us | LT Controls" />
         <meta
           property="og:description"
-          content="Get in touch with LT-CONTROLS for 24/7 technical support, automation solutions, and business inquiries."
+          content="Get in touch with LT-Controls for 24/7 technical support, automation solutions, and business inquiries."
         />
         <meta property="og:image" content="/favico.jpg" />
         <meta property="og:url" content="https://www.lt-controls.com/contact" />
@@ -74,7 +74,7 @@ export default function Contact() {
               </p>
               <div className="mt-4 space-y-2">
                 <p className="text-lg">
-                  <strong>LT-Controls Pty Ltd</strong>
+                  <strong>LT Controls Pty Ltd</strong>
                 </p>
                 <p className="text-lg">
                   Unit 8B / 1990 Logan Road, Upper Mount Gravatt Queensland 4122,
