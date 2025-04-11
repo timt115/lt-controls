@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata & { verification: string } = {
-  title: "LT Controls | Your Automation Partner",
+  title: "LT Controls",
   description:
     "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
   icons: {
@@ -25,6 +25,26 @@ export const metadata: Metadata & { verification: string } = {
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
+  openGraph: {
+    title: "LT Controls",
+    description:
+      "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
+    url: "https://www.lt-controls.com",
+    images: ["/favico.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LT Controls",
+    description:
+      "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
+    images: ["/favico.ico"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  
+
   verification: "--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0",
 };
 
