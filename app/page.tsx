@@ -8,10 +8,10 @@ export default function Home() {
     <>
       {/* Global Metadata */}
       <Head>
-        <title>LT Controls | Your Automation Partner</title>
+        <title>LT Controls | Your Automation Partner in Brisbane, Australia</title>
         <meta
           name="description"
-          content="LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems."
+          content="LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems. Located in Brisbane, Australia."
         />
         <meta
           name="keywords"
@@ -33,6 +33,22 @@ export default function Home() {
         <meta name="twitter:image" content="/favico.ico" />
         <link rel="canonical" href="https://www.lt-controls.com" />
       </Head>
+
+      <script type="application/ld+json">
+  {`{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "LT Controls",
+    "url": "https://www.lt-controls.com",
+    "logo": "https://www.lt-controls.com/favico.ico",
+    "sameAs": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brisbane",
+      "addressCountry": "AU"
+    }
+  }`}
+</script>
 
       <div className="min-h-screen bg-gray-100 text-gray-900 font-sans">
         {/* Hero Section */}
@@ -72,7 +88,7 @@ export default function Home() {
                 alt="Overview of LT Controls' automation services"
                 width={600}
                 height={600}
-                className="rounded-lg object-cover w-full h-full"
+                className="rounded-lg object-cover w-full h-full loading-lazy"
               />
             </div>
 
@@ -135,7 +151,7 @@ export default function Home() {
                     src="/team.webp"
                     alt="Our Team"
                     fill
-                    className="rounded-t-lg object-cover"
+                    className="rounded-t-lg object-cover loading-lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -156,7 +172,7 @@ export default function Home() {
                     src="/services.webp"
                     alt="Our Services"
                     fill
-                    className="rounded-t-lg object-cover"
+                    className="rounded-t-lg object-cover loading-lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -177,7 +193,7 @@ export default function Home() {
                     src="/process.webp"
                     alt="Our Process"
                     fill
-                    className="rounded-t-lg object-cover"
+                    className="rounded-t-lg object-cover loading-lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -196,8 +212,7 @@ export default function Home() {
           </section>
 
           {/* Trustedby Section */}
-          <section 
-          id="clients" className="py-12 text-center">
+          <section id="clients" className="py-12 text-center">
             <h2 className="text-4xl font-extrabold text-[var(--primary)] mb-6">
               Trusted By
             </h2>
@@ -208,55 +223,63 @@ export default function Home() {
                   alt="Client 1"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/jbs-logo.png"
                   alt="Client 2"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/rpf-logo.avif"
                   alt="Client 3"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/kpc-logo.avif"
                   alt="Client 4"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/primo-logo.png"
                   alt="Client 5"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/teys-logo.png"
                   alt="Client 6"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/dexion-logo.png"
                   alt="Client 7"
                   width={200}
                   height={100}
-                  className="justify-self-center align-self-center"
+                  className="justify-self-center align-self-center loading-lazy"
                 />
                 <Image
                   src="/norco-logo.jpg"
                   alt="Client 8"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
                 <Image
                   src="/grove-logo.svg"
                   alt="Client 9"
                   width={100}
                   height={50}
+                  className="loading-lazy"
                 />
               </div>
             </div>

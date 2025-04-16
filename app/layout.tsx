@@ -19,16 +19,32 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata & { verification: string } = {
   title: "LT Controls",
   description:
-    "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
+    "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients. Located in Brisbane, Australia",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
+  keywords: [
+    "LT Controls",
+    "LTcontrols",
+    "LT-Controls",
+    "LT Controls Automation",
+    "LT Controls Brisbane",
+    "LT Controls Australia",
+    "Automation Solutions",
+    "PLC Programming",
+    "HMI Design",
+    "SCADA Systems",
+    "Brisbane",
+    "Australia",
+    "Industrial Automation",
+    "Control Systems",
+  ],
   openGraph: {
     title: "LT Controls",
     description:
-      "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
+      "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients. Located in Brisbane, Australia",
     url: "https://www.lt-controls.com",
     images: ["/favico.jpg"],
   },
@@ -36,7 +52,7 @@ export const metadata: Metadata & { verification: string } = {
     card: "summary_large_image",
     title: "LT Controls",
     description:
-      "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients.",
+      "LT Controls specializes in delivering cutting-edge automation solutions, including PLC programming, HMI design, and SCADA systems, tailored to meet the unique needs of our clients. Located in Brisbane, Australia",
     images: ["/favico.ico"],
   },
   robots: {
