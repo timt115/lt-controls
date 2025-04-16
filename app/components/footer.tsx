@@ -65,7 +65,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} LT Controls Pty Ltd - All rights reserved.
           </p>
           <p>
-            <a href="/privacy-policy" className="hover:text-[var(--primary)]">Privacy Policy</a> | <a href="/terms-of-service" className="hover:text-[var(--primary)]">Terms of Service</a>
+            <a href="/terms-of-service" className="hover:text-[var(--primary)]">Terms of Service</a>
           </p>
         </div>
       </footer>

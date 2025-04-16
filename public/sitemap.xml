@@ -2,27 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.lt-controls.com/</loc>
-    <lastmod>2025-04-10</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.lt-controls.com/about</loc>
-    <lastmod>2025-04-10</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.lt-controls.com/projects</loc>
-    <lastmod>2025-04-10</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.lt-controls.com/contact</loc>
-    <lastmod>2025-04-10</lastmod>
+    <lastmod>2025-04-16</lastmod>
     <priority>0.8</priority>
   </url>
     <url>
         <loc>https://www.lt-controls.com/management</loc>
-        <lastmod>2025-04-10</lastmod>
+        <lastmod>2025-04-16</lastmod>
         <priority>0.8</priority>
     </url>
+  <url>
+    <loc>https://www.lt-controls.com/terms-of-service</loc>
+    <lastmod>2025-04-16</lastmod>
+    <priority>0.8</priority>
 </urlset>
