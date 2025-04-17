@@ -19,7 +19,7 @@ export default function Projects() {
           property="og:description"
           content="Discover how LT Controls delivered cutting-edge automation solutions for leading companies like JBS Foods, Australian Country Choice, and more."
         />
-        <meta property="og:image" content="/favico.svg" />
+        <meta property="og:image" content="/favico.ico" />
         <meta property="og:url" content="https://www.LT Controls.com/projects" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -28,7 +28,7 @@ export default function Projects() {
           name="twitter:description"
           content="Explore LT Controls' major projects, including automation solutions for JBS Foods, Australian Country Choice, and more."
         />
-        <meta name="twitter:image" content="/favico.svg" />
+        <meta name="twitter:image" content="/favico.ico" />
         <link rel="canonical" href="https://www.LT Controls.com/projects" />
       </Head>
 
@@ -58,7 +58,7 @@ export default function Projects() {
                 </h2>
                 <div className="flex-grow flex justify-center sm:justify-end mt-4 sm:mt-0">
                   <img
-                    src="/jbs-logo.png"
+                    src="/jbs-logo.avif"
                     alt="JBS Foods Logo"
                     className="h-20 w-auto object-contain hidden sm:block"
                   
@@ -71,7 +71,7 @@ export default function Projects() {
                 {/* First Card: Image Only */}
                 <div className="p-6 bg-white shadow-md rounded-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow flex items-center justify-center w-full">
                   <img
-                    src="/jbs-logo.png"
+                    src="/jbs-logo.avif"
                     alt="JBS Foods Project"
                     className="h-64 w-auto object-contain"
                   />
@@ -159,7 +159,7 @@ export default function Projects() {
                 </h2>
                 <div className="flex-grow flex justify-center sm:justify-end mt-4 sm:mt-0">
                   <img
-                    src="/acc-logo.jpg"
+                    src="/acc-logo.avif"
                     alt="Australian Country Choice Logo"
                     className="h-20 w-auto object-contain hidden sm:block"
                   />
@@ -171,7 +171,7 @@ export default function Projects() {
                 {/* First Card: Image Only */}
                 <div className="p-6 bg-white shadow-md rounded-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow flex items-center justify-center w-full">
                   <img
-                    src="/acc-logo.jpg"
+                    src="/acc-logo.avif"
                     alt="Australian Country Choice Project"
                     className="h-64 w-auto object-contain"
                   />
@@ -371,7 +371,7 @@ export default function Projects() {
                 </h2>
                 <div className="flex-grow flex justify-center sm:justify-end mt-4 sm:mt-0">
                   <img
-                    src="/norco-logo.jpg"
+                    src="/norco-logo.avif"
                     alt="Norco Milk Logo"
                     className="h-20 w-auto object-contain hidden sm:block"
                   />
@@ -383,7 +383,7 @@ export default function Projects() {
                 {/* First Card: Image Only */}
                 <div className="p-6 bg-white shadow-md rounded-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow flex items-center justify-center w-full">
                   <img
-                    src="/norco-logo.jpg"
+                    src="/norco-logo.avif"
                     alt="Norco Milk Project"
                     className="h-64 w-auto object-contain "
                   />
@@ -422,7 +422,7 @@ export default function Projects() {
                 </h2>
                 <div className="flex-grow flex justify-center sm:justify-end mt-4 sm:mt-0">
                   <img
-                    src="/grove-logo.svg"
+                    src="/grove-logo.avif"
                     alt="Grove Juice Logo"
                     className="h-20 w-auto object-contain hidden sm:block"
                   />
@@ -434,7 +434,7 @@ export default function Projects() {
                 {/* First Card: Image Only */}
                 <div className="p-6 bg-white shadow-md rounded-lg hover:shadow-xl hover:scale-105 transition-transform transition-shadow flex items-center justify-center w-full">
                   <img
-                    src="/grove-logo.svg"
+                    src="/grove-logo.avif"
                     alt="Grove Juice Project"
                     className="h-64 w-auto object-contain"
                   />
