@@ -19,10 +19,10 @@ export default function Contact() {
           property="og:description"
           content="Get in touch with LT-Controls for 24/7 technical support, automation solutions, and business inquiries."
         />
-        <meta property="og:image" content="/favico.jpg" />
+        <meta property="og:image" content="/favico.ico" />
         <meta property="og:url" content="https://www.lt-controls.com/contact" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/favico.svg" />
+        <meta name="twitter:image" content="/favico.ico" />
         <link rel="canonical" href="https://www.lt-controls.com/contact" />
       </Head>
 

@@ -55,7 +55,7 @@ export default function Home() {
         <section
           id="hero"
           className="relative bg-cover bg-center text-white py-20 px-6 sm:px-12"
-          style={{ backgroundImage: "url('/bghero.png')" }}
+          style={{ backgroundImage: "url('/bghero.avif')" }}
         >
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-extrabold letter-spacing-widest mb-4 sm-text-l ">
@@ -84,8 +84,8 @@ export default function Home() {
             {/* Image Section */}
             <div className="flex-shrink-0 w-full sm:w-1/2">
               <Image
-                src="/summary.png"
-                alt="Overview of LT Controls' automation services"
+                src="/summary.avif"
+                alt="Overview of LT Controls' automation services in Brisbane, Australia"
                 width={600}
                 height={600}
                 className="rounded-lg object-cover w-full h-full loading-lazy"
@@ -109,12 +109,12 @@ export default function Home() {
                 </li>
                 <li>
                   <p className="text-gray-600 font-semibold">
-                    Over 20 years of experience.
+                    Over 20 years of experience in Automation.
                   </p>
                 </li>
                 <li>
                   <p className="text-gray-600 font-semibold">
-                    Emergency breakdown support.
+                    Emergency breakdown support for critical systems.
                   </p>
                 </li>
               </ul>
@@ -219,14 +219,14 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="grid grid-cols-5 justify-items-center gap-8 bg-white p-6 rounded-lg shadow-lg m-auto max-w-4xl sm:grid-cols-3">
                 <Image
-                  src="/acc-logo.jpg"
+                  src="/acc-logo.avif"
                   alt="Client 1"
                   width={100}
                   height={50}
                   className="loading-lazy"
                 />
                 <Image
-                  src="/jbs-logo.png"
+                  src="/jbs-logo.avif"
                   alt="Client 2"
                   width={100}
                   height={50}
@@ -247,35 +247,35 @@ export default function Home() {
                   className="loading-lazy"
                 />
                 <Image
-                  src="/primo-logo.png"
+                  src="/primo-logo.avif"
                   alt="Client 5"
                   width={100}
                   height={50}
                   className="loading-lazy"
                 />
                 <Image
-                  src="/teys-logo.png"
+                  src="/teys-logo.avif"
                   alt="Client 6"
                   width={100}
                   height={50}
                   className="loading-lazy"
                 />
                 <Image
-                  src="/dexion-logo.png"
+                  src="/dexion-logo.avif"
                   alt="Client 7"
                   width={200}
                   height={100}
                   className="justify-self-center align-self-center loading-lazy"
                 />
                 <Image
-                  src="/norco-logo.jpg"
+                  src="/norco-logo.avif"
                   alt="Client 8"
                   width={100}
                   height={50}
                   className="loading-lazy"
                 />
                 <Image
-                  src="/grove-logo.svg"
+                  src="/grove-logo.avif"
                   alt="Client 9"
                   width={100}
                   height={50}

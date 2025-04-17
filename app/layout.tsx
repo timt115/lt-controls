@@ -78,6 +78,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="--j9bKNeuO5XPEXHhODUYJSPhswgZ7NEhDzaDIhHHi0"
         />
+        <meta name="next-size-adjust" content="true" />
       </head>
 
       <body
